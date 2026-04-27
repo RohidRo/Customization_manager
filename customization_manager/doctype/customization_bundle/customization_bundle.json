@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bundle_name",
+ "creation": "2026-04-25 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "bundle_name",
+  "version",
+  "erpnext_version",
+  "frappe_version",
+  "exported_on",
+  "exported_by",
+  "notes",
+  "bundle_json"
+ ],
+ "fields": [
+  {
+   "fieldname": "bundle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bundle Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fieldname": "erpnext_version",
+   "fieldtype": "Data",
+   "label": "ERPNext Version"
+  },
+  {
+   "fieldname": "frappe_version",
+   "fieldtype": "Data",
+   "label": "Frappe Version"
+  },
+  {
+   "fieldname": "exported_on",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Exported On"
+  },
+  {
+   "fieldname": "exported_by",
+   "fieldtype": "Data",
+   "label": "Exported By"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "bundle_json",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "Bundle JSON"
+  }
+ ],
+ "links": [],
+ "modified": "2026-04-25 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Customization Manager",
+ "name": "Customization Bundle",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "exported_on",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

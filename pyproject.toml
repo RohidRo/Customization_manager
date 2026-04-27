@@ -1,9 +1,9 @@
 [project]
 name = "customization_manager"
 authors = [
-    { name = "Rohid", email = "rohidro07@gmail.com"}
+    { name = "OpenAI", email = "support@example.com"}
 ]
-description = "Export and restore ERPNext customizations as portable JSON"
+description = "Backup and restore ERPNext customizations as portable JSON bundles"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
