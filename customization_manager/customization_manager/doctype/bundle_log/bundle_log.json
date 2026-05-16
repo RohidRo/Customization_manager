@@ -9,7 +9,8 @@
   "status",
   "details",
   "user",
-  "timestamp"
+  "timestamp",
+  "snapshot_bundle"
  ],
  "fields": [
   {
@@ -17,7 +18,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Action",
-   "options": "Export\nRestore",
+   "options": "Export\nRestore\nRollback",
    "reqd": 1
   },
   {
@@ -44,6 +45,12 @@
    "fieldtype": "Datetime",
    "in_list_view": 1,
    "label": "Timestamp"
+  },
+  {
+   "fieldname": "snapshot_bundle",
+   "fieldtype": "Link",
+   "label": "Snapshot Bundle",
+   "options": "Customization Bundle"
   }
  ],
  "in_create": 1,
